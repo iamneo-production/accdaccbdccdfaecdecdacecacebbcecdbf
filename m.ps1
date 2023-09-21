@@ -6,8 +6,8 @@ $m  =read-host
 $mn =read-host
 $d=$m+$mn
 if($d -gt 70){
-    write-post "Pass"
+    write-host "Pass"
 }
 else{
-    write-post "Fail"
+    Write-host "Fail"
 }
